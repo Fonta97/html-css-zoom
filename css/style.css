@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: calc((100vh-10px) / 3);
+}
+
+/* header impostazioni */
+.container {
+    position: fixed;
+    z-index: 500;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 150px;
+}
+
+.buttons span {
+    padding: 3px;
+    border-radius: 10%;
+    background-color: #4a4a4a;
+    margin: 1px;
+}
+
+.containerutenti {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    flex-grow: 1;
+}
